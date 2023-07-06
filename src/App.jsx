@@ -3,6 +3,7 @@ import Signup from './components/Signup'
 import Login from './components/Login'
 import Navbar from './components/Navbar'
 import Slider from './components/Slider'
+import Popular from './components/Popular'
 // import ScrollToTop from './components/ScrollToTop'
 function App() {
 
@@ -10,11 +11,12 @@ function App() {
     <>
     {/* <ScrollToTop/> */}
     <Router>
-    <Navbar />
+    {/* <Navbar /> */}
+    {/* <Slider /> */}
       <Routes>
-        <Route exact path='/' element={<Slider/>}/>
-        {/* <Route exact path='/signup' element={<Signup/>}/> */}
-        {/* <Route exact path='/login' element={<Login/>}/> */}
+        <Route exact path='/' element={<Popular/>}/>
+        <Route exact path='/signup' element={<Signup/>}/>
+        <Route exact path='/login' element={<Login/>}/>
       </Routes>
     </Router>
       

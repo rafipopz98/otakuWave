@@ -32,7 +32,8 @@ const AnimeSlider = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
               vitae ab. Illo, odio.
             </p>
-            <button>Watch NOW</button>
+             <button>Watch NOW</button>
+              <button>Watch List</button>
           </div>
         </div>
         <div className="wrap">
@@ -43,7 +44,8 @@ const AnimeSlider = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
               vitae ab. Illo, odio.
             </p>
-            <button>Watch NOW</button>
+             <button>Watch NOW</button>
+              <button>Watch List</button>
           </div>
         </div>
         <div className="wrap">
@@ -54,7 +56,8 @@ const AnimeSlider = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
               vitae ab. Illo, odio.
             </p>
-            <button>Watch NOW</button>
+             <button>Watch NOW</button>
+              <button>Watch List</button>
           </div>
         </div>
         <div className="wrap">
@@ -66,7 +69,7 @@ const AnimeSlider = () => {
               vitae ab. Illo, odio.
             </p>
           
-              <button>Watch NOW</button>
+               <button>Watch NOW</button>
               <button>Watch List</button>
            
           </div>

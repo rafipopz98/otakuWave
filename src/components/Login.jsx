@@ -21,11 +21,13 @@ const Login = () => {
               <p className="textforget"> &nbsp;&nbsp;Forgot Password?</p>
             </div>
             <div className="form">
+            <Link to={'/'}>
               <input
                 className="submitt"
                 type="submit"
                 value="login in to your account"
               />
+            </Link>
             </div>
           </form>
           Don't have any account yet?
