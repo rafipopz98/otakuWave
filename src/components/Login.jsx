@@ -1,7 +1,10 @@
 import "./Login.css";
 import { Link } from "react-router-dom";
+import Preloader from "./Preloader";
 const Login = () => {
   return (
+    <>
+    <Preloader />
     <div className="loginpage">
       <div className="logincontainer">
         <div className="loginedetails">
@@ -26,21 +29,22 @@ const Login = () => {
             </div>
           </form>
           Don't have any account yet?
-          <Link to={"/signup"} className="loginbtn">
+          <a  href="/signup" to={"/signup"} className="loginbtn">
             Signup
-          </Link>
+          </a>
         </div>
         <div className="loginimage"></div>
       </div>
       <div className="title">
         <h1>otakuWave</h1>
         <p>
-        <span>·</span>Unleash your anime obsession with OtakuWave:
+        <span className="dot">·</span>Unleash your anime obsession with OtakuWave:
         <br />
         &nbsp; The ultimate destination for immersive streaming,featuring &nbsp;&nbsp;a vast collection of captivating shows and movies.
         </p>
       </div>
     </div>
+    </>
   );
 };
 
