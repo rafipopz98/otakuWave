@@ -1,5 +1,10 @@
 .signuppage{
-    height:100vh ;
+    overflow: hidden;
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+    /* padding: 8rem 0; */
+    width: 100%;
+    height: 100vh;
     background-image: url('https://wallpaperaccess.com/full/5804152.png');
     /* background-image: url('../assets/images/pxfuel.jpg'); */
     opacity: 0.7;
@@ -10,6 +15,9 @@
     justify-content: center;
     align-items: center;
     position: relative;
+}
+.signuppage::-webkit-scrollbar{
+    display: none;
 }
 .signupcontainer{
     display: flex;
@@ -106,4 +114,17 @@ font-size:1.5rem ;
     font-weight: 900;
     font-size: 1.2rem;
     width: 45rem;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--gray-1);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--dark-bg);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: var(--gray-1);
 }

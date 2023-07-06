@@ -1,27 +1,28 @@
-import {BrowserRouter as Router,Routes, Route} from 'react-router-dom'
-import Signup from './components/Signup'
-import Login from './components/Login'
-import Navbar from './components/Navbar'
-import Slider from './components/Slider'
-import Popular from './components/Popular'
-// import ScrollToTop from './components/ScrollToTop'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Signup from "./components/SignUp/Signup";
+import Login from "./components/Login/Login";
+import Navbar from "./components/Navbar/Navbar";
+import Slider from "./components/Slider/Slider";
+import Popular from "./components/Popular/Popular";
+import Home from "./pages/Home";
+// import SmoothScrollbar from "smooth-scrollbar";
+// import ScrollToTop from './components/Scroll/ScrollToTop'
 function App() {
-
   return (
     <>
-    {/* <ScrollToTop/> */}
-    <Router>
-    {/* <Navbar /> */}
-    {/* <Slider /> */}
-      <Routes>
-        <Route exact path='/' element={<Popular/>}/>
-        <Route exact path='/signup' element={<Signup/>}/>
-        <Route exact path='/login' element={<Login/>}/>
-      </Routes>
-    </Router>
-      
+      {/* <ScrollToTop/> */}
+      {/* <SmoothScrollBar /> */}
+      <Router>
+        {/* <Navbar /> */}
+        {/* <Slider /> */}
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/signup" element={<Signup />} />
+          <Route exact path="/login" element={<Login />} />
+        </Routes>
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

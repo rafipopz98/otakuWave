@@ -1,10 +1,16 @@
 .navbar{
-    overflow-x: hidden;
+    overflow: hidden;
     display: flex;
+    position: fixed;
+    z-index: 100000000000;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1rem;
-    padding-bottom: 0.7rem;
+    padding-top: 2rem;
+    width: 100%;
+    background-color: #262626;
+    margin-top: 0;
+    /* margin-left: -12rem; */
+    padding-bottom: 3rem;
     border-bottom: 2px solid #176B87;
     box-shadow: #176B87;
     
@@ -22,13 +28,15 @@ box-shadow: 0px 1px 5px 0px rgba(23,107,135,1);
     padding: 0.7rem;
     margin-left: 2rem;
     border-radius: 0.4rem;
+    margin-bottom: -2rem;
 }
 .leftnavbar{
     display: flex;
     align-items: center;
-    /* margin: 20px; */
+    /* margin: 2            0px; */
     /* background-color: pink; */
     margin-left: -20rem;
+    margin-bottom: -2rem;
 }
 .homenav{
     margin-right: 5rem;
@@ -38,12 +46,15 @@ box-shadow: 0px 1px 5px 0px rgba(23,107,135,1);
     display: flex;
     position: relative;
     align-items: center;
+    margin-bottom: -2rem;
 }
 .navbarinput{
     display: flex;
     align-items: center;
     margin-left: -15rem;
-    padding: 1rem 0;
+    padding: 1rem 7px;
+    
+    outline: none;
 }
 
 .searchicon{
@@ -73,6 +84,7 @@ box-shadow: 0px 1px 5px 0px rgba(23,107,135,1);
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: -2rem;
 }
 .watchlistnav{
     margin-left: -10rem;
@@ -82,4 +94,8 @@ box-shadow: 0px 1px 5px 0px rgba(23,107,135,1);
 .accountnav{
     padding-right:2rem ;
     padding-left: 4rem;
+}
+Link{
+    padding: 0;
+    margin: 0;  
 }

@@ -1,4 +1,4 @@
-import './Popular.css'
+import "./Popular.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { productData, responsive } from "./PopularAnimeList.js";
@@ -16,10 +16,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Popular Anime</h1>
-      <Carousel  responsive={responsive}>
-        {product}
-      </Carousel>
+      <h1 className="popu">Popular Anime</h1>
+      <Carousel responsive={responsive}>{product}</Carousel>
     </div>
   );
 }

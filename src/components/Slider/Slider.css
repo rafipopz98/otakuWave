@@ -3,11 +3,11 @@
     justify-content: center;
     align-items: center;
 
-}
+} 
 .slider{
     width: 120%;
     overflow: visible;
- margin-top:20px ;
+ margin-top:9rem ;
 }
  ul li button ::before{
     /* &::before{ */
@@ -51,20 +51,23 @@
     position: absolute;
     top: 2rem;
     right: 2rem;
-    /* padding: 5rem; */
+    padding: 2rem;
     background-color: #262626;
     opacity: 0.9;
 }
 .textslide h1{
     text-align: center;
-    padding: 2rem;
+    padding: 0.2rem;
     font-size: 2rem;
     font-weight: 900;
     /* margin-bottom:3rem ; */
+    padding-bottom: 0;
+    margin-bottom: 20px;
 }
 .textslide p{
+    padding-top: 0;
     width: 40rem;
-    padding: 2rem;
+    margin-bottom: 20px;
     font-size: 1.2rem;
     font-weight: 700;
 }
