@@ -1,0 +1,116 @@
+.loginpage{
+    height:100vh ;
+    /* background-image: url('https://c4.wallpaperflare.com/wallpaper/567/723/642/jujutsu-kaisen-gojo-satoru-blue-eyes-gray-hair-hd-wallpaper-preview.jpg'); */
+    background-image: url('../assets/images/pxfuel.jpg');
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transform: rotate(90deg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.logincontainer{
+    display: flex;
+    width: 120vh;
+}
+.loginedetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
+    background-color: black;
+    opacity: 0.9;
+}
+.loginimage{
+    width: 60%;
+    height: 70vh;
+    /* background-color: orange; */
+    opacity: 0.9;
+    background-image: url("https://i.pinimg.com/564x/d4/71/5d/d4715d6067e345426f287fdf07feac18.jpg");
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+}
+.header{
+    margin-bottom: 1rem;
+    margin-top: -6rem;
+}
+.header h2{
+    color: #DAFFFB;
+    font-weight: 800;
+    font-size: 1.8rem;
+
+}
+form{
+    padding-top: 1rem;
+}
+.form{
+    padding: 0.5rem;
+}
+input{
+    width: 25rem;
+    padding: 0.7rem;
+    /* border: none; */
+    border-radius: 0.4rem;
+    box-shadow: red;
+    height: 3rem;
+    font-size: 1.1rem;
+    color: black;
+}
+.submitt{
+    /* margin-top:1rem ; */
+    background-color: #DAFFFB;
+    cursor: pointer;
+    /* margin-bottom:3rem ; */
+}
+.submitt:hover{
+    background-color: #176B87;
+    transition: 0.1ms ease-out;
+}
+.textforget{
+    /* margin-top: 3rem; */
+    padding-top: 0.4rem;
+    padding-bottom: 1rem;
+    /* padding: 2rem; */
+    color: red;
+    font-size: 1.1rem;
+    /* text-align: center; */
+}
+.loginbtn{
+    background-color:   #262626;
+    padding:0.3rem 1rem;
+    margin-top: 1rem;
+    /* padding: 2rem; */
+color: #DAFFFB;
+margin-bottom: -7rem;
+font-size:1.4rem ;
+}
+.title{
+    color: #262626;
+    position: absolute;
+    /* background-color: red; */
+    bottom: 2rem;
+    left: 5rem;
+}
+.title h1{
+    font-size: 2.5rem;
+    /* background-color: red; */
+    font-weight: 900;
+    color: #262626;
+}
+.title p{
+    color: #262626;
+    font-weight: 900;
+    font-size: 1.2rem;
+    width: 45rem;
+}
+span{
+    font-size: 2rem;
+    color: #262626;
+    font-weight: 900;
+    padding: 0;
+
+}
