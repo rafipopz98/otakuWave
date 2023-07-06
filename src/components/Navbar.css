@@ -1,0 +1,84 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 2px solid #176B87;
+    box-shadow: #176B87;
+    
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(23,107,135,1);
+-moz-box-shadow: 0px 1px 5px 0px rgba(23,107,135,1);
+box-shadow: 0px 1px 5px 0px rgba(23,107,135,1);
+    /* background-color: red; */
+}
+
+.logonavbar{
+    display: flex;
+    flex-direction: column;
+    background-color: #176B87;
+    cursor: pointer;
+    padding: 0.7rem;
+    margin-left: 2rem;
+    border-radius: 0.4rem;
+}
+.leftnavbar{
+    display: flex;
+    align-items: center;
+    /* margin: 20px; */
+    /* background-color: pink; */
+    margin-left: -20rem;
+}
+.homenav{
+    margin-right: 5rem;
+    padding: 0.5rem;
+}
+.middlenavbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.navbarinput{
+    display: flex;
+    align-items: center;
+    margin-left: -15rem;
+    padding: 1rem 0;
+}
+
+.searchicon{
+    align-items: center;
+    width: 2.8rem;
+    height: 3rem;
+    /* padding: 1.5rem; */
+    background-color: rgb(183, 177, 177);
+    border-radius: 0.4rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius:0 ;
+    margin-left:-8px ;
+    border-left:1px solid rgb(229, 229, 229);
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    z-index: 6;
+}
+.middlenavbar input{
+    font-size: 1.4rem;
+    z-index: 2;
+    outline: none;
+    width: 30rem;
+    border: none;
+    background-color:rgb(183, 177, 177);
+}
+.rightnavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watchlistnav{
+    margin-left: -10rem;
+    padding-right: 2rem;
+    
+}
+.accountnav{
+    padding-right:2rem ;
+    padding-left: 4rem;
+}
