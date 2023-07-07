@@ -1,6 +1,6 @@
 import React from "react"; 
 
-export default function PopularAnimeProduct(props) {
+export default function WeeklyProp(props) {
   return (
     <div className="card">
     <div className="wrap">
@@ -14,3 +14,7 @@ export default function PopularAnimeProduct(props) {
     </div>
   );
 }
+
+
+
+

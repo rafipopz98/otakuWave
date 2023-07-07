@@ -2,12 +2,12 @@ export const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 1024 },
-      items: 4,
-      slidesToSlide: 2,
+      items: 5,
+      slidesToSlide: 1,
     },
     desktop: {
       breakpoint: { max: 1024, min: 800 },
-      items: 4,
+      items: 5,
       slidesToSlide: 2,
     },
     tablet: {
@@ -19,8 +19,8 @@ export const responsive = {
       items: 1,
     },
   };
-  
-  export const productData = [
+   
+  export const popularData = [
     {
       id: 1,
       imageurl:

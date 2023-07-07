@@ -1,0 +1,19 @@
+.marqueesimg img{
+    /* width: 50rem; */
+        height: 20vh;
+    object-fit: contain;
+}
+.mainMarqu{
+    margin-top: 50px;
+    text-align: center;
+    padding: 4rem;
+}
+.titlemarqu{
+    margin-bottom: 50px;
+}
+.image-wrapper{
+    margin: 0px 30px;
+}
+.image-wrapper img{
+    width: 80%;
+}

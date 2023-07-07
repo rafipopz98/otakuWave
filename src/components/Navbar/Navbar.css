@@ -1,15 +1,17 @@
 .navbar{
+    margin:0 4%;
     overflow: hidden;
     display: flex;
     position: fixed;
     z-index: 100000000000;
     justify-content: space-between;
+    /* margin-left: px; */
     align-items: center;
     padding-top: 2rem;
     width: 100%;
     background-color: #262626;
     margin-top: 0;
-    /* margin-left: -12rem; */
+    margin-left:0px;
     padding-bottom: 3rem;
     border-bottom: 2px solid #176B87;
     box-shadow: #176B87;
@@ -39,7 +41,7 @@ box-shadow: 0px 1px 5px 0px rgba(23,107,135,1);
     margin-bottom: -2rem;
 }
 .homenav{
-    margin-right: 5rem;
+    margin-right: 4rem;
     padding: 0.5rem;
 }
 .middlenavbar{
@@ -87,7 +89,7 @@ box-shadow: 0px 1px 5px 0px rgba(23,107,135,1);
     margin-bottom: -2rem;
 }
 .watchlistnav{
-    margin-left: -10rem;
+    /* margin-left: -10rem; */
     padding-right: 2rem;
     
 }
