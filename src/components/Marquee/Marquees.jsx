@@ -9,7 +9,7 @@ const Marquees = () => {
         Animes We Provide
       </h1>
     </div>
-      <Marquee  style={{backgroundColor:'rgba(0,0,0,0.1)'}}  autoFill='true' speed='100' delay='3' pauseOnClick='true' gradient='true'  gradientColor='255,45,25' gradientWidth='2rem' >
+      <Marquee pauseOnHover='true' style={{backgroundColor:'rgba(0,0,0,0.1)'}}  autoFill='true' speed='100' delay='3' pauseOnClick='true' gradient='true'  gradientColor='255,45,25' gradientWidth='2rem' >
       <div className='marqueesimg image-wrapper'>
         <img src="https://www.pngitem.com/pimgs/m/622-6228786_one-piece-anime-banner-hd-png-download.png" alt="860x319" />
       </div>
