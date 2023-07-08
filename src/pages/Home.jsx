@@ -5,16 +5,17 @@ import Popular from '../components/Popular/Popular'
 import Preloader from '../components/Preloader/Preloader'
 import Marquees from '../components/Marquee/Marquees'
 import Weekly from '../components/Weekly/Weekly'
+import TestNavbar from '../components/TestNavbar.jsx/TestNavbar'
 
 const Home = () => {
   return (
     <div>
     {/* <Preloader /> */}
-        {/* <Navbar /> */}
-        <Slider />
+    <Slider />
         <Popular />
         <Marquees />
         <Weekly />
+        {/* <TestNavbar /> */}
     </div>
   )
 }
