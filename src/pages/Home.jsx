@@ -12,6 +12,7 @@ const Home = () => {
   return (
     <div>
     {/* <Preloader /> */}
+    <Navbar />
     <Slider />
         <Popular />
         <Marquees />

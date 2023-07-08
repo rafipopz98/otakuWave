@@ -19,7 +19,7 @@ function App() {
       {/* <ScrollToTop/> */}
       {/* <SmoothScrollBar /> */}
       <Router>
-        <Navbar />
+        {/* <Navbar /> */}
         {/* <Slider /> */}
         <Routes>
           <Route exact path="/" element={<Landingpage />} />
