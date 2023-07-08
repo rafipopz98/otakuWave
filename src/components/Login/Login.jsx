@@ -21,7 +21,7 @@ const Login = () => {
                 <p className="textforget"> &nbsp;&nbsp;Forgot Password?</p>
               </div>
               <div className="form">
-                <Link to={"/"}>
+                <Link to={"/account"}>
                   <input
                     className="submitt"
                     type="submit"

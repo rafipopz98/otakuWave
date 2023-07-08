@@ -23,6 +23,8 @@ function App() {
         {/* <Slider /> */}
         <Routes>
           <Route exact path="/" element={<Landingpage />} />
+          <Route exact path="/account" element={<Home />} />
+
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/top100" element={<Top100 />} />
