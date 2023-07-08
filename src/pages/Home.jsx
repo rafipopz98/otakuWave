@@ -5,6 +5,7 @@ import Popular from '../components/Popular/Popular'
 import Preloader from '../components/Preloader/Preloader'
 import Marquees from '../components/Marquee/Marquees'
 import Weekly from '../components/Weekly/Weekly'
+import WhatsNew from '../components/WhatsNew/WhatsNew'
 import TestNavbar from '../components/TestNavbar.jsx/TestNavbar'
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
         <Popular />
         <Marquees />
         <Weekly />
+        <WhatsNew />
         {/* <TestNavbar /> */}
     </div>
   )

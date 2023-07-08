@@ -1,0 +1,12 @@
+.whatsnew h1{
+    font-size: 3rem;
+    margin-bottom: -1rem;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    /* margin: 0; */
+}
+.slid{
+    margin-top: -5rem;
+    /* height: 20vh; */
+    /* background-color: aqua; */
+}
