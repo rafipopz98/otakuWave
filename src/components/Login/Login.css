@@ -1,7 +1,9 @@
 .loginpage{
     height:100vh ;
     /* background-image: url('https://c4.wallpaperflare.com/wallpaper/567/723/642/jujutsu-kaisen-gojo-satoru-blue-eyes-gray-hair-hd-wallpaper-preview.jpg'); */
-    background-image: url('../assets/images/pxfuel.jpg');
+    /* background-image: url('../assets/images/pxfuel.jpg'); */
+    /* background-color: #176B87; */
+    background-image: url('../../assets/images/pxfuel.jpg');
     opacity: 0.5;
     background-repeat: no-repeat;
     background-size: cover;

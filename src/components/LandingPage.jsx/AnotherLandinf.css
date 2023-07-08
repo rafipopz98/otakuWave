@@ -1,0 +1,41 @@
+.alpcontainer{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    overflow: auto;
+    left: 0;
+}
+.alpcontainer .secti{
+    min-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    background-color: #fffee1;
+}
+.alpcontainer .secti:nth-child(2){
+    background: #e2fcff;
+}
+.alpcontainer .secti:nth-child(3){
+    background: #d0aeff;
+}
+.alpcontainer .secti:nth-child(4){
+    background: #fce8f4;
+}
+.alpcontainer .secti .alpcontent{
+    max-width: 800px;
+    padding: 40px;
+    text-align: center;
+}
+.alpcontainer .secti .alpcontent h2{
+    font-size: 4rem;
+    color: #111;
+}
+.alpcontainer .secti .alpcontent p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #111;
+}

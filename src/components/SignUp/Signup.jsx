@@ -5,7 +5,7 @@ import Preloader from "../Preloader/Preloader";
 const signupPage = () => {
   return (
     <>
-      <Preloader />
+      {/* <Preloader /> */}
       <div className="signuppage">
         <div className="signupcontainer">
           <div className="signupedetails">

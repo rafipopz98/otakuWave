@@ -4,7 +4,7 @@ import Preloader from "../Preloader/Preloader";
 const Login = () => {
   return (
     <>
-      <Preloader />
+      {/* <Preloader /> */}
       <div className="loginpage">
         <div className="logincontainer">
           <div className="loginedetails">

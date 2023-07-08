@@ -8,6 +8,8 @@ import Home from "./pages/Home";
 import Preloader from "./components/Preloader/Preloader";
 import Top100 from "./components/Top100/Top100";
 import Error404 from "./components/ErrorPage/Error404";
+import Landingpage from "./components/LandingPage.jsx/Landingpage";
+import AnotherLanding from "./components/LandingPage.jsx/AnotherLanding";
 // import SmoothScrollbar from "smooth-scrollbar";
 // import ScrollToTop from './components/Scroll/ScrollToTop'
 function App() {
@@ -17,10 +19,10 @@ function App() {
       {/* <ScrollToTop/> */}
       {/* <SmoothScrollBar /> */}
       <Router>
-        <Navbar />
+        {/* <Navbar /> */}
         {/* <Slider /> */}
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/" element={<Landingpage />} />
           <Route exact path="/signup" element={<Signup />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/top100" element={<Top100 />} />
