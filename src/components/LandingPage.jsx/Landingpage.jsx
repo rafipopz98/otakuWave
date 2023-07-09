@@ -10,7 +10,7 @@ import Footer from "../Footer/Footer";
 const Landingpage = () => {
   return (
     <>
-    {/* <Preloader /> */}
+    <Preloader />
       <ParallaxProvider>
         <h1 className="midanime">Immerse Yourself in the Enchanting World of Anime: Unlimited Adventures Await!</h1>
         <NavLink to={'/signup'}>
