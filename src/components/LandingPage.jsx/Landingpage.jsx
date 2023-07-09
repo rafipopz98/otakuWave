@@ -9,41 +9,35 @@ import Preloader from "../Preloader/Preloader";
 const Landingpage = () => {
   return (
     <>
-    <Preloader />
+    {/* <Preloader /> */}
       <ParallaxProvider>
+        <h1 className="midanime">Immerse Yourself in the Enchanting World of Anime: Unlimited Adventures Await!</h1>
         <div className="landingpage">
           <section className="lpsec">
             {/* <Parallax translateX={["0px", "-200px"]}> */}
             <div className="lpbox">
               <Parallax speed={1} translateX={["0px", "-200px"]}>
                 <h2 className="lph2" data-jarallax-element="0 -200">
-                  Awesome cjsalkdf;amf kbkjlh.
+                Explore a Vast Library of Anime
                 </h2>
               </Parallax>
               <div className="lpcontainer">
                 {/* <Parallax speed={-10} y={[-40, 40]} tagouter='div'> */}
-                <div className="lpimg ">
+                <Parallax speed={-2} translateX={["0px", "-200px"]} className="lpimg">
                   <img
                     className="jarallax-img"
-                    src="https://images.unsplash.com/photo-1646960706799-d178b8c5604f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                    src="https://i.blogs.es/06ecba/animes_crunchyroll/1366_2000.jpeg"
                     alt=""
                   />
-                </div>
+                </Parallax>
                 {/* </Parallax> */}
                 <Parallax
-                  speed={-1}
-                  translateY={["50px", "-80px"]}
+                  speed={5}
+                  translateX={["50px", "-80px"]}
                   className="lpcontent"
                 >
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nostrum iste voluptates perferendis totam odio eius, ipsa
-                    deserunt iusto voluptatibus ex alias. Reiciendis,
-                    repudiandae maiores. Tempora nisi ea dolore nemo aut tenetur
-                    molestias doloribus, quo odio dolores qui quae ipsam
-                    consectetur corrupti? Velit illum odit at, voluptates
-                    deleniti iusto aliquam debitis sunt magni tempore porro
-                    corrupti laudantium, ut similique perferendis!
+                  Our anime streaming website offers a vast library of captivating titles from various genres, including action, romance, fantasy, comedy, and more. Dive into a world of endless entertainment as you discover new and beloved anime series and movies. From popular classics to the latest releases, we have something for every anime enthusiast.
                   </p>
                 </Parallax>
               </div>
@@ -54,33 +48,26 @@ const Landingpage = () => {
             <div className="lpbox">
               <Parallax speed={-2} translateX={["-200px", "-0px"]}>
                 <h2 className="lph2" data-jarallax-element="0 -200">
-                  Awesome cjsalkdf;amf kbkjlh.
+                High-Quality Streaming Experience
                 </h2>
               </Parallax>
               <div className="lpcontainer">
                 {/* <Parallax speed={-10} y={[-40, 40]} tagouter='div'> */}
-                <div className="lpimg ">
+                <Parallax speed={-2} translateX={["-200px", "-0px"]}div className="lpimg">
                   <img
                     className="jarallax-img"
-                    src="https://images.unsplash.com/photo-1646960706799-d178b8c5604f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                    src="https://im.ziffdavisinternational.com/ign_ap/screenshot/t/top-10-anime-2014-series-to-watch/top-10-anime-2014-series-to-watch_q73v.jpg"
                     alt=""
                   />
-                </div>
+                </Parallax>
                 {/* </Parallax> */}
                 <Parallax
-                  speed={-1}
-                  translateY={["50px", "-80px"]}
+                  speed={5}
+                  translateX={["-80px", "50px"]}
                   className="lpcontent"
                 >
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nostrum iste voluptates perferendis totam odio eius, ipsa
-                    deserunt iusto voluptatibus ex alias. Reiciendis,
-                    repudiandae maiores. Tempora nisi ea dolore nemo aut tenetur
-                    molestias doloribus, quo odio dolores qui quae ipsam
-                    consectetur corrupti? Velit illum odit at, voluptates
-                    deleniti iusto aliquam debitis sunt magni tempore porro
-                    corrupti laudantium, ut similique perferendis!
+                  Experience anime like never before with our high-quality streaming service. Enjoy crisp visuals, smooth playback, and immersive audio that bring your favorite anime to life. Whether you're streaming on your computer, tablet, or mobile device, our platform ensures a seamless and enjoyable viewing experience, allowing you to get lost in the captivating worlds of anime.
                   </p>
                 </Parallax>
               </div>
@@ -91,33 +78,26 @@ const Landingpage = () => {
             <div className="lpbox">
               <Parallax speed={-2} translateX={["0px", "-200px"]}>
                 <h2 className="lph2" data-jarallax-element="0 -200">
-                  Awesome cjsalkdf;amf kbkjlh.
+                Stay Up to Date with the Latest Episodes
                 </h2>
               </Parallax>
               <div className="lpcontainer">
                 {/* <Parallax speed={-10} y={[-40, 40]} tagouter='div'> */}
-                <div className="lpimg ">
+                <Parallax speed={-2} translateX={["0px", "-200px"]} className="lpimg ">
                   <img
                     className="jarallax-img"
-                    src="https://images.unsplash.com/photo-1646960706799-d178b8c5604f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                    src="https://cdn.mos.cms.futurecdn.net/RypcWzkMX4Q4ue8RTzC7oi-1200-80.png"
                     alt=""
                   />
-                </div>
+                </Parallax>
                 {/* </Parallax> */}
                 <Parallax
-                  speed={-1}
+                  speed={5}
                   translateY={["50px", "-80px"]}
                   className="lpcontent"
                 >
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nostrum iste voluptates perferendis totam odio eius, ipsa
-                    deserunt iusto voluptatibus ex alias. Reiciendis,
-                    repudiandae maiores. Tempora nisi ea dolore nemo aut tenetur
-                    molestias doloribus, quo odio dolores qui quae ipsam
-                    consectetur corrupti? Velit illum odit at, voluptates
-                    deleniti iusto aliquam debitis sunt magni tempore porro
-                    corrupti laudantium, ut similique perferendis!
+                  Don't miss a single episode of your favorite anime series. Our streaming platform keeps you up to date with the latest releases, so you can stay in the loop and be part of the ongoing anime conversations. Whether it's a highly anticipated new season or weekly episodes, we've got you covered, ensuring you never fall behind on the thrilling narratives and character developments.
                   </p>
                 </Parallax>
               </div>
@@ -128,33 +108,26 @@ const Landingpage = () => {
             <div className="lpbox">
               <Parallax speed={-2} translateX={["-200px", "-0px"]}>
                 <h2 className="lph2" data-jarallax-element="0 -200">
-                  Awesome cjsalkdf;amf kbkjlh.
+                Create Personalized Watchlists
                 </h2>
               </Parallax>
               <div className="lpcontainer">
                 {/* <Parallax speed={-10} y={[-40, 40]} tagouter='div'> */}
-                <div className="lpimg ">
+                <Parallax speed={-2} translateX={["-200px", "-0px"]} className="lpimg ">
                   <img
                     className="jarallax-img"
-                    src="https://images.unsplash.com/photo-1646960706799-d178b8c5604f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                    src="https://imgix.ranker.com/list_img_v2/18997/538997/original/best-anime-series-all-time-u4?fit=crop&fm=pjpg&q=60&dpr=2&w=1200&h=720"
                     alt=""
                   />
-                </div>
+                </Parallax>
                 {/* </Parallax> */}
                 <Parallax
-                  speed={-1}
-                  translateY={["50px", "-80px"]}
+                  speed={5}
+                  translateX={["-80px", "50px"]}
                   className="lpcontent"
                 >
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nostrum iste voluptates perferendis totam odio eius, ipsa
-                    deserunt iusto voluptatibus ex alias. Reiciendis,
-                    repudiandae maiores. Tempora nisi ea dolore nemo aut tenetur
-                    molestias doloribus, quo odio dolores qui quae ipsam
-                    consectetur corrupti? Velit illum odit at, voluptates
-                    deleniti iusto aliquam debitis sunt magni tempore porro
-                    corrupti laudantium, ut similique perferendis!
+                    Take control of your anime streaming experience by creating personalized watchlists. With our user-friendly interface, you can easily bookmark and organize your favorite anime titles, making it convenient to pick up where you left off and discover new series based on your interests. Build a collection of must-watch anime and curate your own personalized anime journey.
                   </p>
                 </Parallax>
               </div>
@@ -165,33 +138,26 @@ const Landingpage = () => {
             <div className="lpbox">
               <Parallax speed={1} translateX={["0px", "-200px"]}>
                 <h2 className="lph2" data-jarallax-element="0 -200">
-                  Awesome cjsalkdf;amf kbkjlh.
+                Dive into Captivating Storylines
                 </h2>
               </Parallax>
               <div className="lpcontainer">
                 {/* <Parallax speed={-10} y={[-40, 40]} tagouter='div'> */}
-                <div className="lpimg ">
+                <Parallax speed={-2} translateX={["0px", "-200px"]} className="lpimg ">
                   <img
                     className="jarallax-img"
-                    src="https://images.unsplash.com/photo-1646960706799-d178b8c5604f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                    src="https://cdn.technadu.com/wp-content/uploads/2021/07/Psycho-Pass.jpg"
                     alt=""
                   />
-                </div>
+                </Parallax>
                 {/* </Parallax> */}
                 <Parallax
-                  speed={-1}
-                  translateY={["50px", "-80px"]}
+                  speed={5}
+                  translateX={["-200px", "-200px"]}
                   className="lpcontent"
                 >
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nostrum iste voluptates perferendis totam odio eius, ipsa
-                    deserunt iusto voluptatibus ex alias. Reiciendis,
-                    repudiandae maiores. Tempora nisi ea dolore nemo aut tenetur
-                    molestias doloribus, quo odio dolores qui quae ipsam
-                    consectetur corrupti? Velit illum odit at, voluptates
-                    deleniti iusto aliquam debitis sunt magni tempore porro
-                    corrupti laudantium, ut similique perferendis!
+                  Experience captivating storylines that will keep you hooked from the first episode to the last. Our anime streaming website brings you a diverse range of narratives filled with thrilling plot twists, emotional character arcs, and thought-provoking themes. Immerse yourself in the compelling stories that anime has to offer and embark on unforgettable journeys alongside your favorite characters.
                   </p>
                 </Parallax>
               </div>
@@ -217,3 +183,4 @@ const Landingpage = () => {
 };
 
 export default Landingpage;
+

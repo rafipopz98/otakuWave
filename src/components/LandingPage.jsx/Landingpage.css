@@ -1,6 +1,6 @@
 .landingpage{
     padding-bottom: 250px;
-    background-color: black;
+    background-color: #262626;
 }
 .landingpage::before{
 content: 'otakuWave';
@@ -49,7 +49,7 @@ section .lpcontainer .lpimg{
 section .lpcontainer .lpimg img{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 10rem;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -87,6 +87,7 @@ section:nth-child(even) .lpcontainer .lpcontent{
 }
 .btnfinish button{
     padding: 1rem;
+    cursor: pointer;
     background-color: #fff;
     margin: 1rem;
     color: #333;
@@ -94,3 +95,22 @@ section:nth-child(even) .lpcontainer .lpcontent{
     font-weight: 700;
 }
 
+section:nth-child(5) .lpcontainer .lpcontent{
+    right: -10rem;
+}
+.midanime{
+    padding: 2rem;
+    /* position: fixed; */
+    /* z-index: 10000; */
+    background-color: #222;
+    border-bottom: 2px solid #0e0c0e;
+    /* margin-top: 1rem; */
+    /* text-decoration: dotted; */
+    /* text-decoration: 1px white wavy; */
+    /* padding-top: 1rem; */
+    font-size: 3.5rem;
+    -webkit-text-stroke: 2px #fff;
+    font-weight: 900;
+    color: transparent;
+    text-align: center;
+}
