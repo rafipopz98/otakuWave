@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border-top: 2px solid #333;
+    /* background: #333; */
+    margin-top: -5rem;
+}
+.footherh2{ 
+    display: flex;
+    text-align: center;
+}

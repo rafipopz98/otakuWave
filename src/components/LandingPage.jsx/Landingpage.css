@@ -2,6 +2,16 @@
     padding-bottom: 250px;
     background-color: #262626;
 }
+.logolp{
+    position: fixed;
+    z-index: 20;
+    cursor: pointer;
+    color: #1a1818;
+    font-size: 3rem;
+    font-weight: 900;
+    left: 2rem;
+    top: 5rem;
+}
 .landingpage::before{
 content: 'otakuWave';
 position: fixed;
@@ -12,6 +22,9 @@ font-size: 20rem;
 font-weight: 700;
 color: transparent;
 -webkit-text-stroke: 1px #555;
+}
+.lph2{
+    z-index: 2000;
 }
 section{
     position: relative;
@@ -24,12 +37,13 @@ section h2{
     /* position: absolute; */
     margin-left: 200px;
     font-size: 4em;
+    z-index: 21;
     color: #fff;
     margin-bottom: 20px;
 }
 section .lpcontainer{
     position: relative;
-    display: flex;
+    display: flex;z-index: 21;
     width: 1000px;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +55,7 @@ section:nth-child(even) .lpcontainer{
 section .lpcontainer .lpimg{
     position: relative;
     width: 800px;
-    height: 400px;
+    height: 400px;z-index: 21;
     /* overflow: hidden; */
     box-shadow: 0 25px 35px rgba(0,0,0,0.1,);
 }
@@ -51,7 +65,7 @@ section .lpcontainer .lpimg img{
     top: 0;
     left: 10rem;
     width: 100%;
-    height: 100%;
+    height: 100%;z-index: 21;
     object-fit: cover;
 }
 section .lpcontainer .lpcontent{
@@ -61,7 +75,7 @@ section .lpcontainer .lpcontent{
     margin-bottom:40px ;
     padding: 40px;
     background-color: #333;
-    z-index: 1;
+    z-index: 21;
     max-width: 400px;
     color: #fff;
     box-shadow: 0 25px 35px rgba(0,0,0,0.1,);
@@ -69,6 +83,7 @@ section .lpcontainer .lpcontent{
 }
 section:nth-child(even) .lpcontainer .lpcontent{
     left: 0;
+    /* z-index: 21; */
 }
 .finishis{
     display: flex;
@@ -97,12 +112,15 @@ section:nth-child(even) .lpcontainer .lpcontent{
 
 section:nth-child(5) .lpcontainer .lpcontent{
     right: -10rem;
+    z-index: 21;
 }
 .midanime{
+    z-index: 20001;
+    background-color: #1a1818;
     padding: 2rem;
     /* position: fixed; */
     /* z-index: 10000; */
-    background-color: #222;
+    /* background-color: #222; */
     border-bottom: 2px solid #0e0c0e;
     /* margin-top: 1rem; */
     /* text-decoration: dotted; */

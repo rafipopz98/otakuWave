@@ -5,6 +5,7 @@ import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 import AnotherLanding from "./AnotherLanding";
 import { NavLink } from "react-router-dom";
 import Preloader from "../Preloader/Preloader";
+import Footer from "../Footer/Footer";
 
 const Landingpage = () => {
   return (
@@ -12,6 +13,10 @@ const Landingpage = () => {
     {/* <Preloader /> */}
       <ParallaxProvider>
         <h1 className="midanime">Immerse Yourself in the Enchanting World of Anime: Unlimited Adventures Await!</h1>
+        <NavLink to={'/signup'}>
+        <div className="logolp">OtakuWave</div>
+
+        </NavLink>
         <div className="landingpage">
           <section className="lpsec">
             {/* <Parallax translateX={["0px", "-200px"]}> */}
@@ -178,6 +183,7 @@ const Landingpage = () => {
           </div>
         </div>
       </ParallaxProvider>
+      <Footer />
     </>
   );
 };
